@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "expo",
+            "request": "attach",
+            "name": "Inspect Expo app",
+            "projectRoot": "d:\\Git\\specmash-itinerary",
+            "bundlerHost": "127.0.0.1"
+        }
+    ]
+}

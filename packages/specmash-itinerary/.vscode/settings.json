@@ -1,0 +1,5 @@
+{
+	"cSpell.words": ["contragents", "Contragents", "rneui", "Timepicker"],
+	"prettier.eslintIntegration": true,
+	"explorer.fileNesting.enabled": true
+}

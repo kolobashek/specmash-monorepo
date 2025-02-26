@@ -1,0 +1,31 @@
+node_modules/*
+!node_modules/graphql-hooks
+node_modules/graphql-hooks/*
+!node_modules/graphql-hooks/es
+node_modules/graphql-hooks/es/*
+!node_modules/graphql-hooks/es/graphql-hooks.js
+!node_modules/graphql-request
+node_modules/graphql-request/*
+!node_modules/graphql-request/build
+node_modules/graphql-request/build/*
+!node_modules/graphql-request/build/cjs/
+node_modules/graphql-request/build/cjs/*
+!node_modules/graphql-request/build/cjs/resolveRequestDocument.js
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+# macOS
+.DS_Store
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
+
+# local env files
+.env*.local
