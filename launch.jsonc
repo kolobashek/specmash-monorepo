@@ -1,0 +1,20 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Debug React App",
+			"type": "chrome",
+			"request": "launch",
+			"url": "http://localhost:3000",
+			"webRoot": "${workspaceFolder}/packages/specmash-react/src"
+		},
+		{
+			"name": "Debug Node Server",
+			"type": "node",
+			"request": "launch",
+			"program": "${workspaceFolder}/packages/specmash-server/server.ts",
+			"preLaunchTask": "tsc: build - tsconfig.json",
+			"outFiles": ["${workspaceFolder}/packages/specmash-server/dist/**/*.js"]
+		}
+	]
+}

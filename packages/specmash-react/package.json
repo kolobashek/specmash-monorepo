@@ -1,0 +1,8 @@
+{
+	"scripts": {
+		"start": "react-scripts start",
+		"dev": "lerna run start --scope specmash-react",
+		"build": "react-scripts build",
+		"test": "react-scripts test"
+	}
+}

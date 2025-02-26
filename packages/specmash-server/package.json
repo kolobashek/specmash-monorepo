@@ -1,0 +1,8 @@
+{
+	"scripts": {
+		"start": "nodemon --exec node --no-warnings=ExperimentalWarning --loader ts-node/esm server.ts",
+		"dev": "lerna run start --scope specmash-server",
+		"build": "tsc",
+		"test": "jest"
+	}
+}

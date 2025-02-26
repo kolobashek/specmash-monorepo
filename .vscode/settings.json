@@ -1,0 +1,8 @@
+{
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"eslint.workingDirectories": [
+		"./packages/specmash-server",
+		"./packages/specmash-react",
+		"./packages/specmash-itinerary"
+	]
+}

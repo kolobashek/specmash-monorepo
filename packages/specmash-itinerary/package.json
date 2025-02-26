@@ -1,0 +1,8 @@
+{
+	"scripts": {
+		"start": "expo start",
+		"dev": "lerna run start --scope specmash-itinerary",
+		"build": "expo build",
+		"test": "jest"
+	}
+}
