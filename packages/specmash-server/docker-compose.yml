@@ -1,0 +1,31 @@
+services:
+  mariadb:
+    image: mariadb:latest
+    container_name: mariadb
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: Password123!
+      MYSQL_ROOT_HOST: '%'
+      MARIADB_USER: kolobashek
+      MARIADB_PASSWORD: Password123!
+      MYSQL_DATABASE: specmash
+    ports:
+      - '3306:3306'
+    healthcheck:
+      test: ['CMD', '/usr/local/bin/healthcheck.sh', '--connect', '--innodb_initialized']
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+
+  phpmyadmin:
+    image: phpmyadmin
+    container_name: phpmyadmin
+    depends_on:
+      mariadb:
+        condition: service_healthy
+    ports:
+      - '8080:80'
+    environment:
+      PMA_HOST: mariadb
+      PMA_PORT: 3306

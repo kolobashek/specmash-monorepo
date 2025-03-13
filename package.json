@@ -1,17 +1,18 @@
 {
-	"name": "specmash-monorepo",
-	"private": true,
-	"workspaces": [
-		"packages/*"
-	],
-	"scripts": {
-		"bootstrap": "lerna bootstrap",
-		"start": "lerna run start",
-		"build": "lerna run build",
-		"test": "lerna run test",
-		"lint": "lerna run lint"
-	},
-	"devDependencies": {
-		"lerna": "^7.0.0"
-	}
+    "name": "specmash-monorepo",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "start": "concurrently \"yarn workspace specmash-server docker:run\" \"yarn workspace specmash-react docker:run\"",
+        "dev": "yarn workspace specmash-server dev",
+        "build": "yarn workspaces run build",
+        "test": "yarn workspaces run test",
+        "lint": "yarn workspaces run lint",
+        "format": "yarn workspaces run format"
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.0"
+    }
 }

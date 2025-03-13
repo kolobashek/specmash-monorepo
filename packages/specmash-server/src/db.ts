@@ -10,7 +10,8 @@ import { Sequelize } from 'sequelize'
 
 dotenv.config()
 const { DB_HOST, DB_PORT, DB_USER, DB_PASSWORD, DB_NAME } = process.env
-
+logger.log('info', `DB_HOST: ${DB_HOST}`)
+logger.log('info', `DB_PORT: ${DB_PORT}`)
 export const sequelize: Sequelize = new Sequelize(
 	DB_NAME || 'specmash',
 	DB_USER || 'user',

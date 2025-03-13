@@ -1,11 +1,13 @@
-FROM node:18
+FROM node:current-alpine
 
 WORKDIR /app
 
-COPY package*.json ./
-RUN npm install
+COPY *yarn.lock package*.json ./
+RUN yarn install
 
 COPY . .
 
+RUN yarn
+
 EXPOSE 3000
-CMD ["npm", "start"]
+CMD ["yarn", "dev", "--host", "0.0.0.0"]

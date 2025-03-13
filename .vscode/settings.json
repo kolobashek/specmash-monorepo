@@ -4,5 +4,7 @@
 		"./packages/specmash-server",
 		"./packages/specmash-react",
 		"./packages/specmash-itinerary"
-	]
+	],
+	"cSpell.words": ["инстанса"],
+	"editor.tabSize": 2
 }

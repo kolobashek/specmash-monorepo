@@ -1,3 +1,6 @@
+// import { GraphQLClient } from 'graphql-request'
+// import { RequestDocument } from 'graphql-request/dist/types'
+
 import { GraphQLClient } from 'graphql-request'
 import { GraphQLError, GraphQLResponse } from 'graphql-request/build/esm/types'
 

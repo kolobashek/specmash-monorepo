@@ -1,0 +1,251 @@
+PS D:\Git\specmash-monorepo\packages\specmash-react> yarn create @eslint/config
+yarn create v1.22.22
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Installed "@eslint/create-config@1.5.0" with binaries: - create-config
+@eslint/create-config: v1.5.0
+
+√ How would you like to use ESLint? · problems
+√ What type of modules does your project use? · esm
+√ Which framework does your project use? · react
+√ Does your project use TypeScript? · typescript
+√ Where does your code run? · browser
+The config that you've selected requires the following dependencies:
+
+eslint, globals, @eslint/js, typescript-eslint, eslint-plugin-react
+√ Would you like to install them now? · No / Yes
+√ Which package manager do you want to use? · yarn
+☕️Installing...
+yarn add v1.22.22
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-itinerary > @rneui/themed@4.0.0-rc.8" has unmet peer dependency "@rneui/base@4.0.0-rc.7".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-itinerary > mobx-react-lite@4.1.0" has unmet peer dependency "mobx@^6.9.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-itinerary > react-native-web@0.19.13" has incorrect peer dependency "react@^18.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-itinerary > react-native-web@0.19.13" has incorrect peer dependency "react-dom@^18.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-itinerary > react-native-testing-library@6.0.0" has unmet peer dependency "react-test-renderer@>=16.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/plugin-proposal-private-property-in-object@7.21.11" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env@7.26.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-typescript@7.26.0" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @testing-library/react@16.2.0" has unmet peer dependency "@testing-library/dom@^10.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @testing-library/user-event@14.6.1" has unmet peer dependency "@testing-library/dom@>=7.21.4".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > pptr-testing-library@0.8.0" has unmet peer dependency "puppeteer@\*".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > ts-jest@29.2.6" has unmet peer dependency "jest@^29.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-server > graphql-passport@0.6.8" has unmet peer dependency "express@4.x".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-server > graphql-passport@0.6.8" has unmet peer dependency "subscriptions-transport-ws@0.x".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-server > graphql-passport@0.6.8" has unmet peer dependency "ws@7.x || 8.x".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-server > eslint-config-standard@17.1.0" has incorrect peer dependency "eslint@^8.0.1".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-server > eslint-config-standard@17.1.0" has incorrect peer dependency "eslint-plugin-n@^15.0.0 || ^16.0.0 ".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-server > eslint-config-standard@17.1.0" has incorrect peer dependency "eslint-plugin-promise@^6.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-itinerary > react-native > @react-native/codegen@0.78.0" has unmet peer dependency "@babel/preset-env@^7.1.6".
+warning "typescript-eslint > @typescript-eslint/eslint-plugin > ts-api-utils@2.0.1" has unmet peer dependency "typescript@>=4.8.4".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @ant-design/pro-components > @ant-design/pro-form@2.31.6" has unmet peer dependency "rc-field-form@>=1.22.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @ant-design/pro-components > @ant-design/pro-table@3.18.6" has unmet peer dependency "rc-field-form@>=1.22.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/plugin-proposal-private-property-in-object > @babel/helper-create-class-features-plugin@7.26.9" has unmet peer dependency "@babel/core@^7.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/plugin-proposal-private-property-in-object > @babel/plugin-syntax-private-property-in-object@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-bugfix-firefox-class-in-computed-class-key@7.25.9" has unmet peer dependency "@babel/core@^7.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-bugfix-safari-class-field-initializer-scope@7.25.9" has unmet peer dependency "@babel/core@^7.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@7.25.9" has unmet peer dependency "@babel/core@^7.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@7.25.9" has unmet peer dependency "@babel/core@^7.13.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-bugfix-v8-static-class-fields-redefine-readonly@7.25.9" has unmet peer dependency "@babel/core@^7.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-proposal-private-property-in-object@7.21.0-placeholder-for-preset-env.2" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-syntax-import-assertions@7.26.0" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-syntax-import-attributes@7.26.0" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-syntax-unicode-sets-regex@7.18.6" has unmet peer dependency "@babel/core@^7.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-async-generator-functions@7.26.8" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-async-to-generator@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-block-scoped-functions@7.26.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-block-scoping@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-class-static-block@7.26.0" has unmet peer dependency "@babel/core@^7.12.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-computed-properties@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-destructuring@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-dotall-regex@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-duplicate-keys@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-duplicate-named-capturing-groups-regex@7.25.9" has unmet peer dependency "@babel/core@^7.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-dynamic-import@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-exponentiation-operator@7.26.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-export-namespace-from@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-for-of@7.26.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-function-name@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-json-strings@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-literals@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-logical-assignment-operators@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-member-expression-literals@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-modules-amd@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-modules-commonjs@7.26.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-modules-systemjs@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-modules-umd@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-named-capturing-groups-regex@7.25.9" has unmet peer dependency "@babel/core@^7.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-new-target@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-numeric-separator@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-object-rest-spread@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-object-super@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-optional-catch-binding@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-parameters@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-private-methods@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-private-property-in-object@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-property-literals@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-regenerator@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-regexp-modifiers@7.26.0" has unmet peer dependency "@babel/core@^7.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-reserved-words@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-spread@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-sticky-regex@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-typeof-symbol@7.26.7" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-unicode-escapes@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-unicode-property-regex@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-unicode-sets-regex@7.25.9" has unmet peer dependency "@babel/core@^7.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/preset-modules@0.1.6-no-external-plugins" has unmet peer dependency "@babel/core@^7.0.0-0 || ^8.0.0-0 <8.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > babel-plugin-polyfill-corejs2@0.4.12" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > babel-plugin-polyfill-corejs3@0.11.1" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > babel-plugin-polyfill-regenerator@0.6.3" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-typescript > @babel/plugin-syntax-jsx@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-typescript > @babel/plugin-transform-typescript@7.26.8" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-itinerary > node-telegram-bot-api > @cypress/request-promise > request-promise-core@1.1.3" has unmet peer dependency "request@^2.34".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-itinerary > react-scripts > eslint-config-react-app > eslint-plugin-flowtype@8.0.3" has unmet peer dependency "@babel/plugin-syntax-flow@^7.14.5".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-itinerary > react-scripts > eslint-config-react-app > eslint-plugin-flowtype@8.0.3" has unmet peer dependency "@babel/plugin-transform-react-jsx@^7.14.9".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > @babel/plugin-transform-async-generator-functions > @babel/helper-remap-async-to-generator@7.25.9" has unmet peer dependency "@babel/core@^7.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-env > babel-plugin-polyfill-corejs2 > @babel/helper-define-polyfill-provider@0.6.3" has unmet peer dependency "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-react > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/plugin-syntax-typescript@7.25.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-itinerary > expo > babel-preset-expo > @react-native/babel-preset > @react-native/babel-plugin-codegen > @react-native/codegen@0.76.7" has unmet peer dependency "@babel/preset-env@^7.1.6".
+warning "workspace-aggregator-54ada51d-d208-4d4e-8e04-c2e241b6b3c9 > specmash-itinerary > expo > babel-preset-expo > @react-native/babel-preset > @react-native/babel-plugin-codegen > @react-native/codegen > jscodeshift@0.14.0" has unmet peer dependency "@babel/preset-env@^7.1.6".
+warning "typescript-eslint > @typescript-eslint/utils@8.26.1" has unmet peer dependency "typescript@>=4.8.4 <5.9.0".
+warning "typescript-eslint > @typescript-eslint/eslint-plugin@8.26.1" has unmet peer dependency "typescript@>=4.8.4 <5.9.0".
+warning "typescript-eslint > @typescript-eslint/parser@8.26.1" has unmet peer dependency "typescript@>=4.8.4 <5.9.0".
+warning "typescript-eslint > @typescript-eslint/eslint-plugin > @typescript-eslint/type-utils@8.26.1" has unmet peer dependency "typescript@>=4.8.4 <5.9.0".
+warning "typescript-eslint > @typescript-eslint/utils > @typescript-eslint/typescript-estree@8.26.1" has unmet peer dependency "typescript@>=4.8.4 <5.9.0".
+warning " > typescript-eslint@8.26.1" has unmet peer dependency "typescript@>=4.8.4 <5.9.0".
+warning Workspaces can only be enabled in private projects.
+[4/4] Building fresh packages...
+success Saved lockfile.
+warning Workspaces can only be enabled in private projects.
+success Saved 7 new dependencies.
+info Direct dependencies
+info All dependencies
+├─ @eslint/config-helpers@0.1.0
+├─ @eslint/js@9.22.0
+├─ @typescript-eslint/type-utils@8.26.1
+├─ eslint-plugin-react@7.37.4
+Failed to compile.
+
+[eslint] Plugin "react" was conflicted between ".eslintrc.json" and "BaseConfig » D:\Git\specmash-monorepo\node_modules\eslint-config-react-app\base.js".
+ERROR in [eslint] Plugin "react" was conflicted between ".eslintrc.json" and "BaseConfig » D:\Git\specmash-monorepo\node_modules\eslint-config-react-app\base.js".
+
+webpack compiled with 1 error
+ERROR in src/reportWebVitals.ts:1:10
+TS2305: Module '"web-vitals"' has no exported member 'ReportHandler'.
+
+> 1 | import { ReportHandler } from 'web-vitals'
+
+      |          ^^^^^^^^^^^^^
+    2 |
+    3 | const reportWebVitals = (onPerfEntry?: ReportHandler) => {
+    4 |         if (onPerfEntry && onPerfEntry instanceof Function) {
+
+ERROR in src/reportWebVitals.ts:5:32
+TS2339: Property 'getCLS' does not exist on type 'typeof import("D:/Git/specmash-monorepo/node_modules/web-vitals/dist/modules/index")'.
+3 | const reportWebVitals = (onPerfEntry?: ReportHandler) => {
+4 | if (onPerfEntry && onPerfEntry instanceof Function) {
+
+> 5 | import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
+
+      |                                              ^^^^^^
+    6 |                         getCLS(onPerfEntry)
+    7 |                         getFID(onPerfEntry)
+    8 |                         getFCP(onPerfEntry)
+
+ERROR in src/reportWebVitals.ts:5:40
+TS2339: Property 'getFID' does not exist on type 'typeof import("D:/Git/specmash-monorepo/node_modules/web-vitals/dist/modules/index")'.
+3 | const reportWebVitals = (onPerfEntry?: ReportHandler) => {
+4 | if (onPerfEntry && onPerfEntry instanceof Function) {
+
+> 5 | import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
+
+      |                                                      ^^^^^^
+    6 |                         getCLS(onPerfEntry)
+    7 |                         getFID(onPerfEntry)
+    8 |                         getFCP(onPerfEntry)
+
+ERROR in src/reportWebVitals.ts:5:48
+TS2339: Property 'getFCP' does not exist on type 'typeof import("D:/Git/specmash-monorepo/node_modules/web-vitals/dist/modules/index")'.
+3 | const reportWebVitals = (onPerfEntry?: ReportHandler) => {
+4 | if (onPerfEntry && onPerfEntry instanceof Function) {
+
+> 5 | import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
+
+      |                                                              ^^^^^^
+    6 |                         getCLS(onPerfEntry)
+    7 |                         getFID(onPerfEntry)
+    8 |                         getFCP(onPerfEntry)
+
+ERROR in src/reportWebVitals.ts:5:56
+TS2339: Property 'getLCP' does not exist on type 'typeof import("D:/Git/specmash-monorepo/node_modules/web-vitals/dist/modules/index")'.
+3 | const reportWebVitals = (onPerfEntry?: ReportHandler) => {
+4 | if (onPerfEntry && onPerfEntry instanceof Function) {
+
+> 5 | import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
+
+      |                                                                      ^^^^^^
+    6 |                         getCLS(onPerfEntry)
+    7 |                         getFID(onPerfEntry)
+    8 |                         getFCP(onPerfEntry)
+
+ERROR in src/reportWebVitals.ts:5:64
+TS2339: Property 'getTTFB' does not exist on type 'typeof import("D:/Git/specmash-monorepo/node_modules/web-vitals/dist/modules/index")'.
+3 | const reportWebVitals = (onPerfEntry?: ReportHandler) => {
+4 | if (onPerfEntry && onPerfEntry instanceof Function) {
+
+> 5 | import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
+
+      |                                                                              ^^^^^^^
+    6 |                         getCLS(onPerfEntry)
+    7 |                         getFID(onPerfEntry)
+    8 |                         getFCP(onPerfEntry)
+
+ERROR in src/services/api/graphql.ts:2:47
+TS2307: Cannot find module 'graphql-request/build/esm/types' or its corresponding type declarations.
+1 | import { GraphQLClient } from 'graphql-request'
+
+> 2 | import { GraphQLError, GraphQLResponse } from 'graphql-request/build/esm/types'
+
+      |                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    3 |
+    4 | const API_URL = process.env.EXPO_PUBLIC_API_URL || 'http://localhost:3000'
+    5 | const url = API_URL + '/graphql'
+
+ERROR in src/utils/roles.ts:2:16
+TS2872: This kind of expression is always truthy.
+1 | export const localizedRoleName = (role: string | number) => {
+
+> 2 | if (role === ('admin' || 1)) return 'Администратор'
+
+      |                       ^^^^^^^
+    3 |         if (role === ('manager' || 2)) return 'Менеджер'
+    4 |         if (role === ('driver' || 3)) return 'Водитель'
+    5 |         return null
+
+ERROR in src/utils/roles.ts:3:16
+TS2872: This kind of expression is always truthy.
+1 | export const localizedRoleName = (role: string | number) => {
+2 | if (role === ('admin' || 1)) return 'Администратор'
+
+> 3 | if (role === ('manager' || 2)) return 'Менеджер'
+
+      |                       ^^^^^^^^^
+    4 |         if (role === ('driver' || 3)) return 'Водитель'
+    5 |         return null
+    6 | }
+
+ERROR in src/utils/roles.ts:4:16
+TS2872: This kind of expression is always truthy.
+2 | if (role === ('admin' || 1)) return 'Администратор'
+3 | if (role === ('manager' || 2)) return 'Менеджер'
+
+> 4 | if (role === ('driver' || 3)) return 'Водитель'
+
+      |                       ^^^^^^^^
+    5 |         return null
+    6 | }
+    7 |
